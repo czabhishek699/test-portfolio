@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: arial;
+            font-weight: bold;
+        }
+        .header{
+            background-color: rgb(8, 119, 8);
+            margin: 0;
+            padding: 0;
+            height: 30px;
+        }
+        ul li{
+            display: inline;
+            margin-right: 11%;
+            color: white;
+            position: relative;
+            top: 7px;
+            cursor: pointer;
+        }
+        ul li:hover{
+           
+            color: rgb(0, 225, 255);
+        }
+        .photo{
+            width: 70%;
+            margin-top: 15px;
+            margin-left: 70px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+        .photo:hover{
+            transform: scale(1.04);
+        }
+        .naam{
+            color: rgb(10, 119, 8);
+            text-align: center;
+        }
+        .mero-barey-ma{
+            background-color: rgb(8, 119, 8);
+            border: 2px solid rgb(8, 119, 8);
+            padding: 7px;
+            border-radius: 6px;
+            color: white;
+            position: relative;
+            right: -125px;
+        }
+        .mero-barey-ma:hover{
+            background-color: black;
+            color: rgb(8, 119, 8);
+        }
+        .new-btn{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(8, 119, 8);
+            border-radius: 100px;
+            opacity: 0.6;
+            transition: 0.8s;
+        }
+        .new-btn:hover{
+            width:300px;
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+       }
+       .new-btn-small{
+        width: 280px;
+        height: 280px;
+        margin-left: 20px;
+        margin-top: 50px;
+       }
+       .para{
+        opacity: 0;
+        transition: 0.8s;
+        font-size: 20px;
+        color: rgb(8, 119, 8);
+       }
+       .para:hover{
+        opacity: 1;
+       }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="body">
+        <div class="header">
+            <header>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </header>
+        </div>
+        <div class="photo">
+<img src="ojha.jpg" alt="image loading error" class="photo">
+<p class="naam">Hello, I'm <strong>Avishek Ojha</strong> From Jhapa</p>
+<button class="mero-barey-ma">Learn More</button>
+        </div>
+        <div class="new-btn"><div class="new-btn-small">
+         <p class="para">I'm Abhishek. I am from Kamal-1,Jhapa Nepal. I am currently reading +2 at Global Educational Academy</p>
+        </div>
+    </div>
+        <div class="new-btn1"></div>
+    </div>
+</body>
+</html>
